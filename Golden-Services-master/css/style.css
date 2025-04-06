@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+:root {
+    --logo-font: "Bilbo Swash Caps";
+    --brand-font: "Montserrat", sans-serif;
+    --text-font: "Roboto Slab", serif;
+    --brand-color: #FED136;
+    --title-color: #222;
+    --text-color: #777;
+    --contact-title-color: #FFF;
+    --contact-bg-color: #222;
+    --contact-placeholder-color: #BBB;
+    --contact-form-bg-color: #CCC;
+    --contact-button-text-color: #FFF;
+}
+* {
+    font-family: var(--brand-font);
+}
+.services-img {
+    border: var(--brand-color) 3px solid;
+    border-radius: 100%;
+}
+.services-list, .header-list {
+    list-style: none;
+}
+.contact {
+    background-color: var(--contact-bg-color);
+}
+.contact-title {
+    color: var(--contact-title-color);
+}
+.header-logo {
+    color: var(--brand-color);
+    font-family: var(--logo-font);
+}
+.header-link {
+    color: var(--brand-color);
+}
